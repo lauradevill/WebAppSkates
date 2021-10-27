@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9074b88f-b5a1-4330-befa-8c6cc91db945" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1znUnRCN48ZgBT0T32346xFNror" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.EmpresaPatinetasApplication (1)">
+    <configuration name="EmpresaPatinetasApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ProyectoWebApp.EmpresaPatinetas.EmpresaPatinetasApplication" />
+      <module name="ProyectoWebAppPatinetasFrontEndFuncional" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ProyectoWebApp.EmpresaPatinetas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmpresaPatinetasApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="WebAppPatinetas" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ProyectoWebApp.EmpresaPatinetas.EmpresaPatinetasApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmpresaPatinetasApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ProyectoWebAppPatinetasFrontEndFuncional" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ProyectoWebApp.EmpresaPatinetas.EmpresaPatinetasApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EmpresaPatinetasApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9074b88f-b5a1-4330-befa-8c6cc91db945" name="Changes" comment="" />
+      <created>1634783513640</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634783513640</updated>
+      <workItem from="1634836762048" duration="1120000" />
+      <workItem from="1634906547328" duration="3139000" />
+      <workItem from="1634992726343" duration="1829000" />
+      <workItem from="1635002084538" duration="3925000" />
+      <workItem from="1635009541978" duration="2797000" />
+      <workItem from="1635090090507" duration="4169000" />
+      <workItem from="1635095459996" duration="615000" />
+      <workItem from="1635096149179" duration="2041000" />
+      <workItem from="1635098361046" duration="996000" />
+      <workItem from="1635100245556" duration="1906000" />
+      <workItem from="1635106213189" duration="1280000" />
+      <workItem from="1635131928498" duration="2884000" />
+      <workItem from="1635185070991" duration="2573000" />
+      <workItem from="1635192479691" duration="746000" />
+      <workItem from="1635193894938" duration="308000" />
+      <workItem from="1635207240739" duration="1547000" />
+      <workItem from="1635261378631" duration="5627000" />
+      <workItem from="1635269438786" duration="10533000" />
+      <workItem from="1635292286290" duration="1473000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

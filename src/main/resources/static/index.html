@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <title>SkateWebApp</title>
+        <meta name="description" content=""/>
+        <meta name="viewport" content="width=device-width"/>
+        <base href="/"/>
+        <link rel="stylesheet" type="text/css" href="/webjars/bootstrap/css/bootstrap.min.css"/>
+        <script type="text/javascript" src="/webjars/jquery/jquery.min.js"></script>
+        <script type="text/javascript" src="/webjars/bootstrap/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script type="text/javascript" src="js/funciones.js"></script>
+        <style type="text/css">
+            body { background-color:lightyellow}
+            h1 {
+                color: rgb(26, 19, 19);
+                text-align: center;
+                font-family: Calibri;
+                font-size: 22pt;
+            }
+            h2 {
+                color:#102c54;
+                font-family: Calibri;
+                font-size: 18pt;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>#MisionTIC 2022</h1>
+        <div class="container unauthenticated">
+            Para iniciar sesión con Github:
+            <a href="/oauth2/authorization/github">Haz click aquí</a>
+        </div>
+        <div class="container authenticated" style="display:none">
+            Autenticado como: <span id="user"></span>
+            <br>
+            <h1>Bienvenido a SkateWebApp</h1>
+            <h2>Patinetas</h2>
+            <div id="resultSkate"></div>
+            <div>
+                <input type="text" id="nameSkate" placeholder="Nombre" required>
+                <input type="text" id="brandSkate" placeholder="Marca" required>
+                <input type="number" id="yearSkate" placeholder="Año" required>
+                <input type="text" id="descriptionSkate" placeholder="Descripción" required>
+            </div>
+            </br>
+            <button onclick="showData('skate')">Consultar</button>
+            <button onclick="saveData('skate')">Guardar!</button>
+            </br>
+            </br>
+            <h2>Categorías</h2>
+            <div id="resultCategory"></div>
+            <div>
+                <input type="text" id="nameCategory" placeholder="Nombre" required>
+                <input type="text" id="descriptionCategory" placeholder="Descripción" required>
+            </div>
+            </br>
+            <button onclick="showData('category')">Consultar</button>
+            <button onclick="saveData('category')">Guardar!</button>
+            </br>
+            </br>
+            <h2>Clientes</h2>
+            <div id="resultClient"></div>
+            <div>
+                <input type="text" id="nameClient" placeholder="Nombre" required>
+                <input type="text" id="emailClient" placeholder="correo:ejemplo@gmail.com" required>
+                <input type="number" id="ageClient" placeholder="Edad" required>
+                <input type="text" id="passwordClient" placeholder="Contraseña" required>
+            </div>
+            </br>
+            <button onclick="showData('client')">Consultar</button>
+            <button onclick="saveData('client')">Guardar!</button>
+            </br>
+            </br>
+            <h2>Mensajes</h2>
+            <div id="resultMessage"></div>
+            <div>
+                <input type="text" id="messageText" placeholder="Texto del mensaje" required>
+            </div>
+            </br>
+            <button onclick="showData('message')">Consultar</button>
+            <button onclick="saveData('message')">Guardar!</button>
+            </br>
+            </br>
+            <h2>Reservas</h2>
+            <div id="resultReservation"></div>
+            <div>
+                <input type="date" id="startDateReservation" placeholder="Fecha inicio" required>
+                <input type="date" id="devolutionDateReservation" placeholder="Fecha entrega" required>
+                <select id="status" required>
+                    <option>Estado</option>
+                    <option>Programado</option>
+                    <option>Cancelado</option>
+                    <option>Realizado</option>
+                </select>
+            </div>
+            </br>
+            <button onclick="showData('reservation')">Consultar</button>
+            <button onclick="saveData('reservation')">Guardar!</button>
+            </br>
+            </br>
+            <h2>Calificación</h2>
+            <div id="resultScore"></div>
+            <div>
+                <select id="numberScore" required>
+                    <option>Calificación</option>
+                    <option>5</option>
+                    <option>4</option>
+                    <option>3</option>
+                    <option>2</option>
+                    <option>1</option>
+                    <option>0</option>
+                </select>
+                <input type="text" id="messageScore" placeholder="Mensaje" required>
+            </div>
+            </br>
+            <button onclick="showData('score')">Consultar</button>
+            <button onclick="saveData('score')">Guardar!</button>
+            </br>
+            </br>
+            <h2>Usuarios Administradores</h2>
+            <div id="resultAdmin"></div>
+            <div>
+                <input type="text" id="nameAdmin" placeholder="Nombre" required>
+                <input type="text" id="emailAdmin" placeholder="Email" required>
+                <input type="text" id="passwordAdmin" placeholder="Password" required>
+            </div>
+            </br>
+            <button onclick="showData('admin')">Consultar</button>
+            <button onclick="saveData('admin')">Guardar!</button>
+            </br>
+        </div>
+    </body>
+    <script type="text/javascript">
+        $.get("/user", function (data) {
+            $("#user").html(data.name);
+            $(".unauthenticated").hide()
+            $(".authenticated").show()
+        });
+    </script>
+</html>
