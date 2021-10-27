@@ -21,7 +21,6 @@ public class CategoryController {
     private CategoryService categoryService;
 
     @GetMapping("/all")
-    @ResponseStatus(HttpStatus.CREATED)
     public List<Category> getCategories() { return categoryService.getAll(); }
     @GetMapping("/{id}")
     public Optional<Category> getCategory(@PathVariable("id") int gCategoryId) {

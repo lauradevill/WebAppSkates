@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9074b88f-b5a1-4330-befa-8c6cc91db945" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/controller/ClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/controller/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/controller/MessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/controller/ReservationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/controller/ReservationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/controller/ScoreController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/controller/ScoreController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/controller/SkateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/controller/SkateController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +47,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Spring Boot.EmpresaPatinetasApplication (1)">
+  <component name="RunManager" selected="Spring Boot.EmpresaPatinetasApplication (2)">
     <configuration name="EmpresaPatinetasApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ProyectoWebApp.EmpresaPatinetas.EmpresaPatinetasApplication" />
       <module name="ProyectoWebAppPatinetasFrontEndFuncional" />
@@ -53,7 +62,15 @@
       </method>
     </configuration>
     <configuration name="EmpresaPatinetasApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="WebAppPatinetas" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ProyectoWebApp.EmpresaPatinetas.EmpresaPatinetasApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmpresaPatinetasApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="WebAppSkates" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ProyectoWebApp.EmpresaPatinetas.EmpresaPatinetasApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -99,6 +116,8 @@
       <workItem from="1635261378631" duration="5627000" />
       <workItem from="1635269438786" duration="10533000" />
       <workItem from="1635292286290" duration="1473000" />
+      <workItem from="1635297012820" duration="598000" />
+      <workItem from="1635297768488" duration="2320000" />
     </task>
     <servers />
   </component>

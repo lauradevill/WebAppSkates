@@ -21,7 +21,6 @@ public class ClientController {
     private ClientService clientService;
 
     @GetMapping("/all")
-    @ResponseStatus(HttpStatus.CREATED)
     public List<Client> getClients() { return clientService.getAll(); }
     @GetMapping("/{id}")
     public Optional<Client> getClient(@PathVariable("id") int gClientId) {

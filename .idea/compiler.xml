@@ -6,9 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="WebAppPatinetas" />
         <module name="EmpresaPatinetas" />
         <module name="ProyectoWebAppPatinetasFrontEndFuncional" />
-        <module name="WebAppPatinetas" />
+        <module name="WebAppSkates" />
       </profile>
     </annotationProcessing>
   </component>
@@ -17,6 +18,7 @@
       <module name="EmpresaPatinetas" options="-parameters" />
       <module name="ProyectoWebAppPatinetasFrontEndFuncional" options="-parameters" />
       <module name="WebAppPatinetas" options="-parameters" />
+      <module name="WebAppSkates" options="-parameters" />
     </option>
   </component>
 </project>

@@ -21,7 +21,6 @@ public class ScoreController {
     private ScoreService scoreService;
 
     @GetMapping("/all")
-    @ResponseStatus(HttpStatus.CREATED)
     public List<Score> getScores() { return scoreService.getAll(); }
     @GetMapping("/{id}")
     public Optional<Score> getScore(@PathVariable("id") int gScoreId) {

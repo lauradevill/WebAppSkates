@@ -21,7 +21,6 @@ public class MessageController {
     private MessageService messageService;
 
     @GetMapping("/all")
-    @ResponseStatus(HttpStatus.CREATED)
     public List<Message> getMessages() { return messageService.getAll(); }
     @GetMapping("/{id}")
     public Optional<Message> getMessage(@PathVariable("id") int gMessageId) {

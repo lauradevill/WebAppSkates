@@ -21,7 +21,6 @@ public class SkateController {
     private SkateService skateService;
 
     @GetMapping("/all")
-    @ResponseStatus(HttpStatus.CREATED)
     public List<Skate> getSkates() { return skateService.getAll(); }
     @GetMapping("/{id}")
     public Optional<Skate> getSkate(@PathVariable("id") int gSkateId) {
