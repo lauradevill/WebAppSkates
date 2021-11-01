@@ -1,10 +1,15 @@
 package com.ProyectoWebApp.EmpresaPatinetas.service;
 
+import com.ProyectoWebApp.EmpresaPatinetas.entity.custom.CountClient;
+import com.ProyectoWebApp.EmpresaPatinetas.entity.custom.StatusAmount;
 import com.ProyectoWebApp.EmpresaPatinetas.repository.ReservationRepository;
 import com.ProyectoWebApp.EmpresaPatinetas.entity.Reservation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 
@@ -103,5 +108,48 @@ public class ReservationService {
             return true;
         }).orElse(aBoolean=false);
         return aBoolean;
+    }
+
+    /**
+     * Method to return a count of Reservations by Client
+     * @return list of clients and their reservatios
+     */
+    public List<CountClient> getTopClients(){
+        return reservationRepository.getTopClients();
+    }
+
+    /**
+     * Method to return the amount of Reservation status
+     * @return amount of Reservations by status
+     */
+    public StatusAmount getStatusReport(){
+        List<Reservation> completed=reservationRepository.getReservationsByStatus("completed");
+        List<Reservation> cancelled=reservationRepository.getReservationsByStatus("cancelled");
+        StatusAmount statusAmount=new StatusAmount(completed.size(),cancelled.size());
+        return statusAmount;
+    }
+
+    /**
+     * Method to return the amount of Reservations in a period of time
+     * @param d1, initial date
+     * @param d2, final date
+     * @return a list of reservations
+     */
+    public List<Reservation> getReservationPeriod(String d1, String d2){
+        //Cambiar el formato string a la forma yyyy-MM-dd
+        SimpleDateFormat parser=new SimpleDateFormat("yyyy-MM-dd");
+        Date dateOne=new Date();
+        Date dateTwo=new Date();
+        try{
+            dateOne=parser.parse(d1);
+            dateTwo=parser.parse(d2);
+        }catch (ParseException e){
+            e.printStackTrace();
+        }
+        if (dateOne.before(dateTwo)){
+            return reservationRepository.getReservationPeriod(dateOne,dateTwo);
+        }else{
+            return new ArrayList<>();
+        }
     }
 }

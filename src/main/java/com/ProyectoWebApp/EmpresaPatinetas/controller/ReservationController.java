@@ -1,5 +1,7 @@
 package com.ProyectoWebApp.EmpresaPatinetas.controller;
 
+import com.ProyectoWebApp.EmpresaPatinetas.entity.custom.CountClient;
+import com.ProyectoWebApp.EmpresaPatinetas.entity.custom.StatusAmount;
 import com.ProyectoWebApp.EmpresaPatinetas.service.ReservationService;
 import com.ProyectoWebApp.EmpresaPatinetas.entity.Reservation;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -37,5 +39,21 @@ public class ReservationController {
 
     @DeleteMapping("/{id}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
-    public boolean delete(@PathVariable("id") int dReservationId) { return reservationService.deleteReservation(dReservationId); }
+    public boolean delete(@PathVariable("id") int dReservationId) { return reservationService.deleteReservation
+            (dReservationId); }
+
+    @GetMapping("/report-status")
+    public StatusAmount getReservationStatus(){
+        return reservationService.getStatusReport();
+    }
+
+    @GetMapping("/report-client")
+    public List<CountClient> getCountClient(){
+        return reservationService.getTopClients();
+    }
+
+    @GetMapping("/report-dates/{dateOne}/{dateTwo}")
+    public List<Reservation> getDatesReport(@PathVariable("dateOne") String d1,@PathVariable("dateTwo") String d2){
+        return reservationService.getReservationPeriod(d1,d2);
+    }
 }

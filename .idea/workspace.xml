@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9074b88f-b5a1-4330-befa-8c6cc91db945" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/controller/ClientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/controller/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/controller/MessageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/controller/ReservationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/controller/ReservationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/controller/ScoreController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/controller/ScoreController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/controller/SkateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/controller/SkateController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/entity/Skate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/entity/Skate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/repository/ReservationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/repository/ReservationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/repository/crud/ClientCrudRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/repository/crud/ClientCrudRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/repository/crud/ReservationCrudRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/repository/crud/ReservationCrudRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/service/ReservationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/service/ReservationService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +114,9 @@
       <workItem from="1635269438786" duration="10533000" />
       <workItem from="1635292286290" duration="1473000" />
       <workItem from="1635297012820" duration="598000" />
-      <workItem from="1635297768488" duration="2320000" />
+      <workItem from="1635297768488" duration="6319000" />
+      <workItem from="1635428411382" duration="3988000" />
+      <workItem from="1635598867417" duration="11936000" />
     </task>
     <servers />
   </component>
