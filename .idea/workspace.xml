@@ -7,11 +7,6 @@
     <list default="true" id="9074b88f-b5a1-4330-befa-8c6cc91db945" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/controller/ReservationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/controller/ReservationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/entity/Skate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/entity/Skate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/repository/ReservationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/repository/ReservationRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/repository/crud/ClientCrudRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/repository/crud/ClientCrudRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/repository/crud/ReservationCrudRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/repository/crud/ReservationCrudRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/service/ReservationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ProyectoWebApp/EmpresaPatinetas/service/ReservationService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +111,7 @@
       <workItem from="1635297012820" duration="598000" />
       <workItem from="1635297768488" duration="6319000" />
       <workItem from="1635428411382" duration="3988000" />
-      <workItem from="1635598867417" duration="11936000" />
+      <workItem from="1635598867417" duration="13072000" />
     </task>
     <servers />
   </component>

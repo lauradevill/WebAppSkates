@@ -47,8 +47,8 @@ public class ReservationController {
         return reservationService.getStatusReport();
     }
 
-    @GetMapping("/report-client")
-    public List<CountClient> getCountClient(){
+    @GetMapping("/report-clients")
+    public List<CountClient> getCountClients(){
         return reservationService.getTopClients();
     }
 
